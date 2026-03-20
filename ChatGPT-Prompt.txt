@@ -1,0 +1,27 @@
+Für dieses Projekt wurde neben dem Anforderungsdokumnt (PDF) der folgende Prompt an ChatGPT übermittelt:
+
+
+Erstelle aus dem Anforderungsdokument (siehe Anhang) ein vollständiges, lauffähiges Java-Projekt, dass ich 
+auf Github hochladen kann. Die Eingaben sollen über die Kommandozeile erfolgen. Als Hilfe kannst du den 
+Source-Code aus diesem Projekt benutzen: https://github.com/futzlig/anagram
+
+
+ChatGPT:
+
+Fertig — ich habe dir ein vollständiges Java-CLI-Projekt erstellt, das die beiden geforderten Features aus dem Anforderungsdokument umsetzt: Anagramm-Prüfung und Suche nach zuvor eingegebenen Anagrammen innerhalb derselben Programmausführung. Die Aufgabenstellung verlangt ausdrücklich eine einfache CLI und In-Memory-Historie nur für einen Lauf.
+
+Als Orientierung habe ich mich zusätzlich an dem verlinkten öffentlichen Beispielprojekt futzlig/anagram orientiert, das ebenfalls ein kleines Java/Maven-CLI-Projekt ist.
+
+Downloads:
+Projekt als ZIP
+
+Optional direkt im Ordner:
+Projektordner
+Gebautes JAR
+
+Wichtig:
+Das Projekt enthält zusätzlich zu pom.xml auch build.sh und run.sh, damit du es notfalls auch ohne lokal installiertes Maven bauen/starten kannst.
+
+Wenn du magst, mache ich dir im nächsten Schritt noch eine passende LICENSE, ein professionelleres README für GitHub oder eine GitHub-Actions
+
+-CI dazu.
